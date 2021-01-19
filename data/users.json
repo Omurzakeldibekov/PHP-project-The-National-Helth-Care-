@@ -10,5 +10,38 @@
         "snn": "000000000",
         "address": "admin",
         "id": "6004ea2e1ba5d"
+    },
+    "6006ee4fb95e6": {
+        "email": "qwe@qwe.qwe",
+        "password": "$2y$10$Z8M2FMdUaRrWDyzVTufQAO6fNiAhHRNGJ4Vuvhk96DmwUm0V3eh9i",
+        "name": "qwe",
+        "roles": [
+            "user"
+        ],
+        "snn": "321321321",
+        "address": "qwe",
+        "id": "6006ee4fb95e6"
+    },
+    "6006ee6ad79d9": {
+        "email": "asd@asd.asd",
+        "password": "$2y$10$k1Fg9q6XaKzEM0RpqlvyueBdFXn4X.urQyL9GxVoS9iWibwwZ\/TYW",
+        "name": "asd",
+        "roles": [
+            "user"
+        ],
+        "snn": "321321321",
+        "address": "asd",
+        "id": "6006ee6ad79d9"
+    },
+    "6006ee80162ae": {
+        "email": "zxc@zxc.zxc",
+        "password": "$2y$10$hxXla.STJPyQkWJQjRjO9OWSdlhzJ9AJCH8F4rn.DzgEtcIFHyVFW",
+        "name": "zxc",
+        "roles": [
+            "user"
+        ],
+        "snn": "321321321",
+        "address": "zxc",
+        "id": "6006ee80162ae"
     }
 }

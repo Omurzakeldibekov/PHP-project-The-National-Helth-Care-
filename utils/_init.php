@@ -8,8 +8,8 @@ require_once("auth.inc.php");
 require_once("flash.inc.php");
 require_once("navigation.inc.php");
 
-$appointmentStorage = new Storage(new JsonIO(__DIR__ . "/../data/appointments.json"));
 $userStorage = new Storage(new JsonIO(__DIR__ . "/../data/users.json"));
+$appointmentStorage = new Storage(new JsonIO(__DIR__ . "/../data/appointments.json"));
 
 
 $auth = new Auth($userStorage);

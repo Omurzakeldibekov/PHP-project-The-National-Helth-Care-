@@ -17,7 +17,7 @@ if(!$auth->is_authenticated()){
   $appointment = $appointmentStorage -> findById($_POST["confirmed_appointment"]);
 
   if(!verify_post("approval")){
-    $errors[] = "Please, confirm accept terms and conditions!";
+    $errors[] = "Please, accept the terms and conditions!";
   }
 
   if(count($appointment["people"]) >= $appointment["limit"]){
@@ -67,7 +67,7 @@ if(!$auth->is_authenticated()){
         <form method="post">
           <input type="hidden" name="confirmed_appointment" value="<?= $appointment["id"] ?>">
           <input type="checkbox" id="approval" name="approval" value="false">
-          <label for="approval"> it is mandatory to show up on the appointment after booking it, or that there may be side effects of vaccination</label><br>
+          <label for="approval"> It is mandatory to show up on the appointment after booking it! There may be side effects of vaccination. Please, contact us for more questions.</label><br>
           <input type="submit" value="Confirm">
         </form>
       <?php endif;?>

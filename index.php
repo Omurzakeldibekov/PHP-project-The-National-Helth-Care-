@@ -3,6 +3,8 @@
   <?php require_once("partials/reminder.php");?>
   <?php require_once("partials/header.php");?>
 
+  <h2> Description </h2>
+  <p> The National Health Centre organizes vaccinations at various times in its central building. This wensite helps you to make an appointment for a covid-19 vaccination. </p> 
 
   <div class="month">
     <button class="left" name="month">Previous</button>
@@ -62,6 +64,8 @@
 
           const result = await fetch(`api/get-date-appointments.php?date=${firstDay.toISOString().split("T")[0]}`);
           const appointments = await result.json();
+
+          console.log(appointments);
 
           if(result.ok && appointments.length > 0 && <?= (!isset($myAppointment))?("true"):("false") ?>){
             for(let i=0; i<appointments.length; i++){
