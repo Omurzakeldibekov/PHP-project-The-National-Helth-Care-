@@ -1,0 +1,342 @@
+body{
+  background-color: #fcf8e8;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*----- header -----*/
+.header {
+  overflow: hidden;
+  background-color: #3b5360;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 15px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a.button:hover {
+  background-color: #fff;
+  color: #3b5360;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
+}
+
+/*----- errors -----*/
+.errors{
+  overflow: hidden;
+  background-color: #ff8585;
+  padding: 1px 20px;
+  color: white;
+}
+
+.reminder{
+  overflow: hidden;
+  background-color: #ff8585;
+  padding: 10px 20px;
+  color: white;
+  font-size: 20px;
+}
+
+.reminder a {
+ float: right;
+ color: white;
+ text-align: center;
+ padding: 12px;
+ text-decoration: none;
+ font-size: 18px;
+ line-height: 0px;
+ border-radius: 4px;
+}
+
+.reminder a:hover {
+  background-color: white;
+  color: #ff8585;
+}
+
+/*-----  Authentification page -----*/
+
+.forms{
+  width: 30%;
+  min-height: 200px;
+  margin-left: 5%;
+  margin-top: 10px;
+  padding: 10px;
+  padding-bottom: 15px;
+  color: #df7861;
+  letter-spacing: 1px;
+}
+
+.forms h1{
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+.forms label{
+  margin-top: 5px;
+  font-weight: bold;
+  color: #00587a;
+}
+
+.forms span{
+  color: #f05454;
+}
+
+.forms .input_style {
+	width: 70%;
+	height: 25px;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+  outline-width: 0;
+}
+
+.forms input[type=submit]{
+  width: 20%;
+	height: 32px;
+  background-color: #16c79a;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  font-size: 0.9em;
+  font-weight: bold;
+  outline: none;
+}
+
+.forms input[type=submit]:hover{
+  background-color: #7EC9A1;
+}
+
+.forms hr{
+  margin-top: 15px;
+}
+
+/*----- List page -----*/
+
+.month{
+  width: 90%;
+  min-height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  padding-bottom: 15px;
+  color: #3b5360;
+  letter-spacing: 1px;box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.month h1{
+  margin: 0;
+  text-align: center;
+  font-size: 3em;
+}
+
+.month table {
+  border: 1px solid #00587a;
+  margin-top: 15px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.month td {
+  width: 10.5%;
+  border: 1px solid #00587a;
+  padding: 5px;
+  font-size: 2em;
+}
+
+.month td h2 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.month td .active {
+  width: 90%;
+  height: 30px;
+  background-color: #16c79a;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  font-size: 0.6em;
+  font-weight: bold;
+  outline: none;
+}
+
+.month td .active:hover{
+  background-color: #7EC9A1;
+}
+
+.month td .non_active {
+  width: 90%;
+  height: 30px;
+  background-color: #ef4f4f;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  overflow: hidden;
+  font-size: 0.6em;
+  font-weight: bold;
+  outline: none;
+}
+
+.month .left{
+  width: 10%;
+	height: 40px;
+  float: left;
+  background-color: #3b5360;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  font-size: 1em;
+  font-weight: bold;
+  outline: none;
+  margin-top: 10px;
+}
+
+.month .right{
+  width: 10%;
+	height: 40px;
+  float: right;
+  background-color: #3b5360;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  font-size: 1em;
+  font-weight: bold;
+  outline: none;
+  margin-top: 10px;
+}
+
+.month .left:hover{
+  background-color: #648292;
+}
+
+.month .right:hover{
+  background-color: #648292;
+}
+
+/*----- booking page -----*/
+
+.book{
+  width: 50%;
+  min-height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  padding-bottom: 15px;
+  color: #df7861;
+  letter-spacing: 1px;
+  letter-spacing: 1px;box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.book table{
+  border: 1px solid #00587a;
+  margin-top: 15px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.book th {
+  width: 10.5%;
+  border: 1px solid #00587a;
+  padding: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #00587a;
+}
+
+.book td {
+  width: 10.5%;
+  border: 1px solid #00587a;
+  padding: 5px;
+  font-size: 1em;
+  color: #00587a;
+}
+
+.book h1{
+  margin-top: 0;
+  margin-left: 20px;
+}
+
+.book span{
+  color: #00587a;
+  font-size: 1.5em;
+  margin-left: 20px;
+}
+
+.book form{
+  margin-top: 20px;
+  margin-left: 18px;
+  width: 90%;
+}
+
+.book form label{
+  color: #00587a;
+  cursor: pointer;
+}
+
+
+.book form input[type=submit]{
+  width: 20%;
+	height: 32px;
+  background-color: #16c79a;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  font-size: 0.9em;
+  font-weight: bold;
+  outline: none;
+  margin-top: 20px;
+}
+
+.book form input[type=submit]:hover{
+  background-color: #7EC9A1;
+}

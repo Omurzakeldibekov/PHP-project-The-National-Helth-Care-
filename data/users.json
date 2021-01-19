@@ -1,0 +1,14 @@
+{
+    "6004ea2e1ba5d": {
+        "email": "admin@nemkovid.hu",
+        "password": "$2y$10$omda5S5EmFWDD7dF6TTzc.i1H9dddZSvGOnx8jXbS.H3oRExD3hhO",
+        "name": "admin",
+        "roles": [
+            "user",
+            "admin"
+        ],
+        "snn": "000000000",
+        "address": "admin",
+        "id": "6004ea2e1ba5d"
+    }
+}
